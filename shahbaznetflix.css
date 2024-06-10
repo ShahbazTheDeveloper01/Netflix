@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 32px 15px 32px;
+}
+.heading{
+    padding-left: 50px;
+}
+select{
+    font-family: inherit;
+    font-size:14px;
+    padding-right: 10px;
+    padding:7px;
+    width: 110px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right:20px;
+    background: transparent;
+    color:white;
+}
+
+select option{
+    background:white;
+    color: black;
+}
+button{
+    padding:10px;
+    padding-right: 15px;
+    border: none;
+    width: 75px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-right:20px;
+    background-color: crimson;
+    color: white;
+    font-family: inherit;
+    font-size: 10px;
+}
+button:hover{
+    background-color: darkred;
+}
+.container{
+    background: url(netflix-background.jpg) rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+
+    height: 100vh;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: calc(100vh - 117px);
+    font-size: 22px;
+}
+.middle h5{
+    text-align: center;
+}
+.middle h1,.middle h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sign input{
+    width: 350px;
+    max-width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    background: transparent;
+    
+}
+form{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left:10px;
+    padding-right:10px;
+}
+.sign button{
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    font-style: inherit;
+}
+::placeholder {
+    font-size: 15px;
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.container2{
+    background-color: black;
+    color: white;
+    padding:72px 20px 72px 20px;
+    display: flex;
+}
+.middle2{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.middle2 h1{
+    font-size: 40px;
+}
+.middle2 p{
+    margin-top: 10px;
+}
+.tv{
+    background: url(shahbazphoto.jpeg);
+    background-size: contain;
+    background-position: center;
+}
+.line{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+}
+.container3{
+    background-color: black;
+    color: white;
+    padding:72px 20px 72px 20px;
+    text-align: center;
+}
+.container3 .middle3
+
+@media screen and (max-width:520px) {
+    .heading{
+        padding-left: 0px;
+    }
+    .heading img{
+        width: 100px !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .middle2{
+        width: 100%;
+    }
+    .middle2 .person{
+        width: 100%;
+    }
+} 
+.freq-2{
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.middle3{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgb(45,45,45);
+}
+.middle3:hover{
+    background-color: rgb(65, 65, 65);;
+}
+.and{
+    margin-top: 20px;
+}
+.form24::placeholder{
+    color: gray;
+}
+.form24{
+    background: transparent;
+    width: 300px;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+.get{
+    width: 200px;
+    font-size: 20px;
+    height: 50px;
+    margin-top:25px ;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;   
+}
+.footerparent{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footerchild a{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+}
+footer .footerp{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.footerchild select{
+    margin-top: 10px;
+}
+.footerchild h3{
+    margin-top: 7px;
+}
+footer .lang{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+footer h3{
+    padding-top: 10px;
+}
